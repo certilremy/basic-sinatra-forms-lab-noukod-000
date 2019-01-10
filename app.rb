@@ -11,6 +11,8 @@ class App < Sinatra::Base
   #@reversed_string = original_string.reverse
   #puts @reversed_string
   #erb :reversed
+
+  puts params
    end
 
 end
