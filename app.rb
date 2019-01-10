@@ -21,7 +21,7 @@ class App < Sinatra::Base
   @c = params[:c]
 
   erb :team
-  
+
    end
 
 end
